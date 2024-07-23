@@ -10,6 +10,7 @@ main {
   overflow-y: visible;
 
   height: 100vh;
+  box-shadow: 30px 0px 6px black;
 }
 
 .container {
@@ -38,7 +39,8 @@ header {
   justify-content: center;
   align-items: center;
 
-  width: 100px !important;
+  width: 150px !important;
+  text-align: center;
 }
 
 .notification-subtitle p {
@@ -48,10 +50,14 @@ header {
 .nb-notification {
   padding: 2px 15px;
   border-radius: 10px;
-  margin-left: 5px;
-  width: 10px;
 
-  text-align: center;
+  width: 10px !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 10px;
 
   background-color: #0b327d;
   color: white;
